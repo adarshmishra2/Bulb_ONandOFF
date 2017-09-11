@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<ImageView
+    android:id="@+id/bulbon"
+    android:src="@drawable/bulbon"
+    android:layout_height="400dp"
+    android:layout_width="match_parent"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:src="@drawable/bulboff"
+        android:id="@+id/bulboff"/>
+<Button
+    android:id="@+id/on"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ON"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="23dp"
+    android:layout_marginLeft="80dp"
+    android:background="@android:color/holo_orange_light"
+    android:onClick="ontapped"/>
+    <Button
+        android:id="@+id/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="200dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="offtapped"/>
+
+</RelativeLayout>
